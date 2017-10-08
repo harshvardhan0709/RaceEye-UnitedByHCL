@@ -2,7 +2,7 @@
 
 The objective of the project is to build a unique experience for millions of Formula E fans watching the action live at the circuits around the world. It will allow the race-goers to access video feeds from the different cars or any action on the race track beyond their view from the grand stand.
 
-##Features of the app:
+## Features of the app:
 1. Rewind and Pause - Allow a user to pause the live stream from the camera and rewind it on the phone.
 2. Real Time - Provides near real time stream from the camera.
 3. Simple, attractive and easy to use user interface.
@@ -14,12 +14,12 @@ We have achieved this by creating android application along with the web server 
 
 All the cameras in the cars are connected to the media server using the wifi. To setup the whole environment we have created a control panel in PHP which will also provide the centralised control for the system.
 
-##Http Server used: Apache/IIS
+## Http Server used: Apache/IIS
 Media Server used: Zoneminder for Ubuntu server 16.04.2
 
 All the files which are required to setup the servers are uploaded to the GitHub and "source code" section. Please refer the pdf file and "Instruction to Run" section for more details. 
 
-##Future Objective:
+## Future Objective:
 1. Increase the number of Livestream in the app from 4 to the number of cars on the race track.
 2. Add the live streaming of Race track cameras along with car cameras.
 3. Load Balancing: Setup multiple servers and create distributed system that will automatically transfer the user request to other if a server gets overloaded with the requests.
